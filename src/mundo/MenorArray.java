@@ -1,15 +1,17 @@
 package mundo;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class MenorArray {
 
     public static void main(String[] args) {
+        Random ale = new Random();
         int[] vector = new int[10];
         int numero_menor = 0;
 
         for (int i = 0; i < 10; i++) {
-            vector[i] = (int) Math.random() * (100 - 1);
+            vector[i] = ale.nextInt(100) + 1;
         }
 
         for (int i = 0; i < 9; i++) {
