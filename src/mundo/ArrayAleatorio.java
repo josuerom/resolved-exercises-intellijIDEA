@@ -1,7 +1,7 @@
 package mundo;
 
-import java.util.Arrays;
 import java.util.Random;
+import java.util.Arrays;
 
 public class ArrayAleatorio {
 
@@ -19,6 +19,6 @@ public class ArrayAleatorio {
 
         System.out.println("Arreglo aleatorio: " + Arrays.toString(array));
         Arrays.sort(array);
-        System.out.println("El número mayor es: " + array[array.length-1]);
+        System.out.println("El número mayor es: " + array[14]);
     }
 }
